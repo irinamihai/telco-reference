@@ -111,6 +111,8 @@ parts:
           - path: machine-config/kdump/06-kdump-worker.yaml
           - path: machine-config/rename-gnrd-interfaces/10-rename-gnrd-interfaces-master.yaml
           - path: machine-config/rename-gnrd-interfaces/10-rename-gnrd-interfaces-worker.yaml
+          - path: machine-config/rename-e810-interfaces/11-rename-e810-interfaces-master.yaml
+          - path: machine-config/rename-e810-interfaces/11-rename-e810-interfaces-worker.yaml
       - name: optional machine-configs
         anyOf:
           - path: machine-config/01-disk-encryption-pcr-rebind-master.yaml
